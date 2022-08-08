@@ -1,0 +1,62 @@
+TERM: alacritty
+window:
+  dimensions:
+    columns: 90
+    lines: 25
+
+  position:
+    x: 341
+    y: 130
+    
+  padding:
+    x: 4
+    y: 4
+
+  opacity: 0.76 
+  title: terminal
+  dynamic_title: true
+
+font:
+  normal:
+    Default:
+    family: JetBrains Mono
+
+  size: 8.0
+  use_thin_strokes: false
+
+  cursor:
+  style:
+    shape: Block
+    blinking: Always
+
+env:
+  TERM: alacritty
+
+colors:
+  primary:
+    background: '#202734'
+    foreground: '#ffffff'
+
+  cursor:
+    text: '#FF261E'
+    cursor: '#eeeeee'
+
+  normal:
+    black: '#0d0d0d'
+    red: '#eeeeee'
+    green: '#A0E521'
+    yellow: '#FFC620'
+    blue: '#1BA6FA'
+    magenta: '#8763B8'
+    cyan: '#21DEEF'
+    white: '#EBEBEB'
+
+  bright:
+    black: '#6D7070'
+    red: '#FF4352'
+    green: '#B8E466'
+    yellow: '#FFD750'
+    blue: '#1BA6FA'
+    magenta: '#A578EA'
+    cyan: '#73FBF1'
+    white: '#FEFEF8'
