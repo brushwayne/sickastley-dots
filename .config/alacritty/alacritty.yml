@@ -18,7 +18,6 @@ window:
 
 font:
   normal:
-    Default:
     family: JetBrains Mono
 
   size: 8.0
